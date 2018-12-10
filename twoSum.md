@@ -12,4 +12,5 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
 **思路**
-利用对象的name，value,减少复杂度
+
+利用对象的name，value,减少复杂度,map[target-nums[i] = i;
