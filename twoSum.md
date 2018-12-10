@@ -13,4 +13,4 @@ return [0, 1].
 
 **思路**
 
-利用对象的name，value,减少复杂度。
+利用对象的name，value,减少复杂度
