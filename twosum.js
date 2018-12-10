@@ -5,6 +5,6 @@ var twoSum = function(nums, target) {
     if (map[nums[i]]) {
       return [map[nums[i]], i];
     }
-    map[target-nums[i]]=i;git 
+    map[target-nums[i]]=i;
   }
 };
