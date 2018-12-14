@@ -8,19 +8,19 @@ Roman numerals are represented by seven different symbols: I, V, X, L, C, D and 
 
 Symbol       Value
 
-I             1
+I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1
 
-V             5
+V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5
 
-X             10
+X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10
 
-L             50
+L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50
 
-C             100
+C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100
 
-D             500
+D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500
 
-M             1000
+M&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000
 
 Example 1:
 
@@ -50,3 +50,7 @@ Input: "MCMXCIV"
 Output: 1994
 
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+
+**思路**
+
+当前值小于后一项值时,和为后一项值减去前一项值
