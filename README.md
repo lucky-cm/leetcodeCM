@@ -1,1 +1,1 @@
-# leetcodeCM #
+# leetcode easy #
